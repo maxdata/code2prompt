@@ -14,9 +14,7 @@ Code2Prompt is a powerful command-line tool that generates comprehensive prompts
 8. [Examples](#examples)
 9. [Templating System](#templating-system)
 10. [Integration with LLM CLI](#integration-with-llm-cli)
-11. [GitHub Actions Integration](#github-actions-integration)
 12. [Configuration File](#configuration-file)
-13. [Troubleshooting](#troubleshooting)
 
 
 ### 🚀 Key Features
