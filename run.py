@@ -1,6 +1,6 @@
 from pathlib import Path
-from code2prompt.main import generate
-from code2prompt.config import Configuration
+from github.main import generate
+from github.config import Configuration
 
 if __name__ == "__main__":
     path = Path('code2prompt')
