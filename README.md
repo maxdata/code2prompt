@@ -41,59 +41,6 @@ Code2Prompt is a powerful command-line tool that generates comprehensive prompts
 - **Pattern Recognition**: Help LLMs learn and apply your project-specific patterns and idioms, improving the quality of AI interactions.
 
 
-## Getting Started
-
-To get started with Code2Prompt, follow these steps:
-
-1. **Install Code2Prompt**: Use one of the installation methods mentioned above.
-2. **Prepare Your Codebase**: Ensure your project is organized and that you have a `.gitignore` file if necessary.
-3. **Run Code2Prompt**: Use the command line to generate prompts from your codebase.
-
-For example, to generate a prompt from a single Python file, run:
-
-```bash
-code2prompt --path /path/to/your/script.py
-```
-
-## Quick Start
-
-1. Generate a prompt from a single Python file:
-   ```bash
-   code2prompt --path /path/to/your/script.py
-   ```
-
-2. Process an entire project directory and save the output:
-   ```bash
-   code2prompt --path /path/to/your/project --output project_summary.md
-   ```
-
-3. Generate a prompt for multiple files, excluding tests:
-   ```bash
-   code2prompt --path /path/to/src --path /path/to/lib --exclude "*/tests/*" --output codebase_summary.md
-   ```
-
-## Usage
-
-The basic syntax for Code2Prompt is:
-
-```bash
-code2prompt --path /path/to/your/code [OPTIONS]
-```
-
-For multiple paths:
-
-```bash
-code2prompt --path /path/to/dir1 --path /path/to/file2.py [OPTIONS]
-```
-
-### Custom Syntax Highlighting
-
-To pair custom file extensions with specific syntax highlighting, use the `--syntax-map` option. This allows you to specify mappings in the format `extension:syntax`. For example:
-
-```
-code2prompt --path /path/to/your/code --syntax-map "inc:bash,customext:python,ext2:javascript"
-```
-
 This command will treat `.inc` files as `bash` scripts, `.customext` files as `python`, and `.ext2` files as `javascript`.
 
 You can also use multiple `--syntax-map` arguments or separate mappings with commas:
