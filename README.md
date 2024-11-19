@@ -1,13 +1,5 @@
 # Code2Prompt
 
-[![PyPI version](https://badge.fury.io/py/code2prompt.svg)](https://badge.fury.io/py/code2prompt)
-
-[![GitHub Stars](https://img.shields.io/github/stars/raphaelmansuy/code2prompt.svg)](https://github.com/raphaelmansuy/code2prompt/stargazers)
-[![GitHub Forks](https://img.shields.io/github/forks/raphaelmansuy/code2prompt.svg)](https://github.com/raphaelmansuy/code2prompt/network/members)
-[![PyPI downloads](https://img.shields.io/pypi/dm/qllm.svg)](https://pypi.org/project/code2prompt/)
-[![PyPI version](https://img.shields.io/pypi/v/qllm.svg)](https://pypi.org/project/code2prompt/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
 Code2Prompt is a powerful command-line tool that generates comprehensive prompts from codebases, designed to streamline interactions between developers and Large Language Models (LLMs) for code analysis, documentation, and improvement tasks.
 
 ## Table of Contents
@@ -25,20 +17,7 @@ Code2Prompt is a powerful command-line tool that generates comprehensive prompts
 11. [GitHub Actions Integration](#github-actions-integration)
 12. [Configuration File](#configuration-file)
 13. [Troubleshooting](#troubleshooting)
-14. [Contributing](#contributing)
-15. [License](#license)
 
-# Code2Prompt: Transform Your Codebase into AI-Ready Prompts
-
-[![PyPI version](https://badge.fury.io/py/code2prompt.svg)](https://badge.fury.io/py/code2prompt)
-[![GitHub Stars](https://img.shields.io/github/stars/raphaelmansuy/code2prompt.svg)](https://github.com/raphaelmansuy/code2prompt/stargazers)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-![](./docs/screen-example1.png)
-
-## Supercharge Your AI-Assisted Development
-
-Code2Prompt is a powerful, open-source command-line tool that bridges the gap between your codebase and Large Language Models (LLMs). By converting your entire project into a comprehensive, AI-friendly prompt, Code2Prompt enables you to leverage the full potential of AI for code analysis, documentation, and improvement tasks.
 
 ### 🚀 Key Features
 
@@ -63,24 +42,6 @@ Code2Prompt is a powerful, open-source command-line tool that bridges the gap be
 - **Improved Documentation**: Generate contextually relevant documentation that truly reflects your codebase, enhancing maintainability.
 - **Pattern Recognition**: Help LLMs learn and apply your project-specific patterns and idioms, improving the quality of AI interactions.
 
-Transform the way you interact with AI for software development. With Code2Prompt, harness the full power of your codebase in every AI conversation.
-
-Ready to elevate your AI-assisted development? Let's dive in! 🏊‍♂️
-
-## Installation
-
-Choose one of the following methods to install Code2Prompt:
-
-### Using pip 
-
-```bash
-pip install code2prompt
-```
-### Using [pipx](https://github.com/pypa/pipx) (recommended)
-
-```bash
-pipx install code2prompt
-```
 
 ## Getting Started
 
